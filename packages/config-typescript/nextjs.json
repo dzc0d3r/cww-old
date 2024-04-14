@@ -13,8 +13,17 @@
     "module": "esnext",
     "resolveJsonModule": true,
     "strict": true,
-    "target": "es5"
+    "target": "es5",
+    /* "paths": {
+      "@/*": ["./*"],
+      "@codewithwalid/ui/*": ["../../packages/cww-ui/*"],
+      "@codewithwalid/ui/components/*": ["../../packages/cww-ui/components/*"],
+      "@codewithwalid/ui/components/ui/*": ["../../packages/cww-ui/components/ui/*"],
+      "@codewithwalid/ui/lib/*": ["../../packages/cww-ui/lib/*"]
+    } */
   },
   "include": ["src", "next-env.d.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+
+
 }
