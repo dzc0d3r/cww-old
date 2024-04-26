@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-turbo test --parallel 
-pnpx lint-staged
+turbo test
+npx lint-staged
